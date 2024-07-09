@@ -72,13 +72,13 @@ if __name__ == '__main__':
     accuracy_cplfw, best_threshold_cplfw, roc_curve_cplfw = perform_val(EMBEDDING_SIZE, BATCH_SIZE, model, cplfw, cplfw_issame)
 
 
-    print("LFW Acc_DANet: {}".format(accuracy_lfw))
-    print("CFP-FF Acc_DANet: {}".format(accuracy_cfp_ff))
-    print("CFP-FP Acc_DANet: {}".format(accuracy_cfp_fp))
-    print("AgeDB30 Acc_DANet: {}".format(accuracy_agedb30))
-    print("CPLFW Acc_DANet: {}".format(accuracy_cplfw))
-    print("CALFW Acc_DANet: {}".format(accuracy_calfw))
-    print("VGGFace2_FP Acc_DANet: {}".format(accuracy_vgg2_fp))
+    print("LFW Acc: {}".format(accuracy_lfw))
+    print("CFP-FF Acc: {}".format(accuracy_cfp_ff))
+    print("CFP-FP Acc: {}".format(accuracy_cfp_fp))
+    print("AgeDB30 Acc: {}".format(accuracy_agedb30))
+    print("CPLFW Acc: {}".format(accuracy_cplfw))
+    print("CALFW Acc: {}".format(accuracy_calfw))
+    print("VGGFace2_FP Acc: {}".format(accuracy_vgg2_fp))
     #
     
     
